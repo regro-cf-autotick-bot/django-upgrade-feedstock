@@ -21,15 +21,13 @@ requirements:
   host:
     - pip
     - python >=3.8
-    - setuptools >=40.6.0
   run:
     - python >=3.8
-    - tokenize-rt >=4.1.0
+    - tokenize-rt >=4.1
 
 test:
   imports:
     - django_upgrade
-    - django_upgrade.fixers
   commands:
     - pip check
     - django-upgrade --help
