@@ -1,5 +1,5 @@
 {% set name = "django-upgrade" %}
-{% set version = "1.19.0" %}
+{% set version = "1.20.0" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name.replace('-', '_') }}-{{ version }}.tar.gz
-  sha256: 14430709d3036a472dc6bff36664a2090dbfc7c7c52682aee90f46b71311931e
+  sha256: 47aa2133972b600a8d935bab8d58d69b2e426bfc985d4c4f4c2fefecd754dd88
 
 build:
   number: 0
